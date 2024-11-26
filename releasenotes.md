@@ -23,9 +23,11 @@
 - SimpleHeapAllocator bug when splitting blocks allowed memory overrun.
 - Not possible to alias or take reference for extension methods on non-user defined types. #1637
 - Prevent methods from using names of properties or fields. #1638
+- b64 / hex data strings can now be used with \` as well.
 
 ### Stdlib changes
 - Add `io::MultiReader`, `io::MultiWriter`, and `io::TeeReader` structs.
+- Updated Base32 API.
 
 ## 0.6.4 Change list
 
